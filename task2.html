@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: cursive;
+        }
+        .sec1{
+            background-image: url(Picsart_24-08-26_08-55-58-625.jpg);
+            height: 100vh;
+            width: 100%;
+            background-repeat: no no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 500px;
+            gap: 15px;
+            position: fixed;
+            z-index: 1;
+            margin-top: 15px;
+        }
+        .sbox1 a{
+            text-decoration: none;
+            color: black;
+            margin: 10px;
+        }
+        .box1, .box2, .box3{
+            display: flex;
+            gap: 30px;
+            padding: 60px;
+            background-color: rgba(255, 255, 255, 0.6);
+            border-radius: 5px;
+            height: 50%;
+            width: 75%;
+            margin-left: 90px;
+            transform: translatey(100px);
+        }
+        .box img, .box2 img, .box3 img{
+            width: 600px;
+            height: 350px;
+            border-radius: 5px;
+        }
+        .word{
+            opacity: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+        }
+        .sec2{
+            background-image: url(Picsart_24-08-26_08-56-57-552.jpg);
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .sec3{
+            background-image: url(Picsart_24-08-26_09-00-29-274.jpg);
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: white;
+            padding: 40px 30px 40px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sec1" id="dog1">
+         <div class="header">
+            <div class="heading">
+                <h1>adorable puppies</h1>
+            </div>
+            <div class="sbox1">
+                <a href="#dog1">Playful pups</a>
+                <a href="#dog2">Sleppy pups</a> 
+                <a href="#dog3">Curious pups</a>
+            </div>
+       </div>
+       <div class="box1">
+        <img src="Picsart_24-08-26_08-55-58-625.jpg">
+        <div class="word">
+            <h2>playful puppies</h2>
+            <p>puppies are slove to apply its how they learn about the world and develop important skills </p>
+        </div>
+      </div>
+    </div>
+    <div class="sec2" id="dog2">
+        <div class="box2">
+            <div class="word">
+                <h2>playful puppies</h2>
+                <p>puppies are slove to apply its how they learn about the world and develop important skills </p>
+            </div>
+             <img src="Picsart_24-08-26_08-56-57-552.jpg">
+        </div>
+    </div>
+    <div class="sec3" id="dog3">
+        <div class="box3">
+            <div class="word">
+                <h2>playful puppies</h2>
+                <p>puppies are slove to apply its how they learn about the world and develop important skills </p>
+            </div>
+             <img src="Picsart_24-08-26_09-00-29-274.jpg">
+        </div>
+    </div>
+    <div class="footer">
+         <p>@2024 puppy parrllax demo</p>
+    </div>
+</body>
+</html>
